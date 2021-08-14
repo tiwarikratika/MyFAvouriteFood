@@ -67,7 +67,7 @@ export default function App() {
         <ul style={{ paddingInlineStart: "0" }}>
           {fooddb[selectfood].map((food) => (
             <li
-              key={food.name}
+              key={food.name, food.rating}
               style={{
                 listStyle: "none",
                 alignContent: "center",
