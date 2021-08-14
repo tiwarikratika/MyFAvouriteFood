@@ -83,9 +83,8 @@ export default function App() {
                 border: "none"
               }}
             >
-              
-              <div style={{ fontSize: "larger" }}> {food.name}<br>{food.rating}</br> <br>
-              {food.desc}</br></div>
+              {" "}
+              <div style={{ fontSize: "larger" }}> {food.name}<br>{food.rating}</br> </div>
             </li>
           ))}
         </ul>
