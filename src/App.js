@@ -3,22 +3,24 @@ import "./styles.css";
 
 const fooddb = {
   chinese: [
-    { name: "Chilli Paneer" },
+    { name: "Chilli Paneer", rating: "3" },
 
-    { name: "Honey Chilli Potato" },
-    { name: "DimSums" }
+    { name: "Honey Chilli Potato", rating: "3" },
+    { name: "DimSums", rating: "3" }
   ],
   italian: [
-    { name: "Pizza" },
-    { name: "Raviolli" },
-    { name: "White Sauce Pasta" }
+    { name: "Pizza", rating: "3" },
+    { name: "Raviolli", rating: "3" },
+    { name: "White Sauce Pasta" , rating: "3"}
   ],
   northIndian: [
-    { name: "Chole Bhatoore" },
-    { name: "Dahi Bhalla" },
-    { name: "Dal Makhani" }
+    { name: "Chole Bhatoore", rating: "3" },
+    { name: "Dahi Bhalla", rating: "3" },
+    { name: "Dal Makhani", rating: "3" }
   ],
-  southIndian: [{ name: "Dosa" }, { name: "Idli" }, { name: "Sambhar Vada" }]
+  southIndian: [{ name: "Dosa", rating: "3" }, 
+  { name: "Idli", rating: "3" }, 
+  { name: "Sambhar Vada", rating: "3" }]
 };
 
 export default function App() {
@@ -79,7 +81,7 @@ export default function App() {
               }}
             >
               {" "}
-              <div style={{ fontSize: "larger" }}> {food.name} </div>
+              <div style={{ fontSize: "larger" }}> {food.name} {food.rating} </div>
             </li>
           ))}
         </ul>
