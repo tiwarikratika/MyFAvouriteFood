@@ -3,10 +3,10 @@ import "./styles.css";
 
 const fooddb = {
   chinese: [
-    { name: "Chilli Paneer", rating: "3✨", desc:"Paneer, green chili sauce, soy sauce, free, sesame oil" },
+    {name: "Chilli Paneer", rating: "3✨", desc:"Paneer, green chili sauce, soy sauce, free, sesame oil" },
 
-    { name: "Honey Chilli Potato", rating: "3.6✨",desc:"Aloo, apple cider vinegar, rice flour, bell peppers, chilli sauce" },
-    { name: "DimSums", rating: "3.5✨",desc:"a large range of small Chinese dishes that are traditionally enjoyed in restaurants for breakfast and lunch." }
+    {name: "Honey Chilli Potato", rating: "3.6✨",desc:"Aloo, apple cider vinegar, rice flour, bell peppers, chilli sauce" },
+    {name: "DimSums", rating: "3.5✨",desc:"a large range of small Chinese dishes that are traditionally enjoyed in restaurants for breakfast and lunch." }
   ],
   italian: [
     { name: "Pizza", rating: "4.1✨", 
