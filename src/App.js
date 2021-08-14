@@ -60,8 +60,7 @@ export default function App() {
               width: "10rem",
               fontSize: "20px",
               padding: "4rem 1 rem",
-              marginLeft:"15%",
-              marginBottom:"2%",
+              margin: "1rem auto",
               hover: "blue"
             }}
           >
