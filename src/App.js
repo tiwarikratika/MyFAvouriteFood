@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./styles.css";
+
 
 const fooddb = {
   chinese: [
@@ -83,9 +83,13 @@ export default function App() {
                 border: "none"
               }}
             >
-              {" "}
-              <div style={{ fontSize: "larger" }}> {food.name}<br>{food.rating}</br> <br>
-              {food.desc}</br></div>
+             
+              <div style={{ fontSize: "larger" }}> {food.name}
+              </div>
+              <div style={{ fontSize: "larger" }}>   {food.rating}
+              </div>
+               <div style={{ fontSize: "larger" }}>  {food.desc}
+              </div>
             </li>
           ))}
         </ul>
