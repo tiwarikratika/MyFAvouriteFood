@@ -84,8 +84,8 @@ export default function App() {
               }}
             >
               {" "}
-              <div style={{ fontSize: "larger" }}> {food.name} {food.rating} <br>
-              {food.desc}</br> </div>
+              <div style={{ fontSize: "larger" }}> {food.name} {food.rating}
+              {food.desc}</div>
             </li>
           ))}
         </ul>
