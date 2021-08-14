@@ -9,8 +9,11 @@ const fooddb = {
     { name: "DimSums", rating: "3.5✨",desc:"a large range of small Chinese dishes that are traditionally enjoyed in restaurants for breakfast and lunch." }
   ],
   italian: [
-    { name: "Pizza", rating: "4.1✨", desc:" dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients" },
-    { name: "Raviolli", rating: "4.7✨",desc:"Italian dumpling that's typically stuffed with ricotta, meat, cheese, and vegetables. " },
+    { name: "Pizza", rating: "4.1✨", 
+    desc:" dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients" },
+    { name: "Raviolli", 
+    rating: "4.7✨",
+    desc:"Italian dumpling that's typically stuffed with ricotta, meat, cheese, and vegetables. " },
     { name: "White Sauce Pasta" , rating: "3.9✨",desc:" yummy italian creamy white sauce pasta which will make you fall in love"}
   ],
   northIndian: [
