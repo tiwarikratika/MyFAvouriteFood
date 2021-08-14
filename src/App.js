@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import "./styles.css";
 
 const fooddb = {
@@ -84,7 +84,8 @@ export default function App() {
               }}
             >
               {" "}
-              <div style={{ fontSize: "larger" }}> {food.name}<br>{food.rating}</br> </div>
+              <div style={{ fontSize: "larger" }}> {food.name}<br>{food.rating}</br> <br>
+              {food.desc}</br></div>
             </li>
           ))}
         </ul>
