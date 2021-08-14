@@ -3,27 +3,27 @@ import "./styles.css";
 
 const fooddb = {
   chinese: [
-    { name: "Chilli Paneer", rating: "3✨", desc:"Paneer, green chili sauce, soy sauce, free, sesame oil" },
+    { name: "Chilli Paneer", rating: "3✨" },
 
-    { name: "Honey Chilli Potato", rating: "3.6✨",desc:"Aloo, apple cider vinegar, rice flour, bell peppers, chilli sauce" },
+    { name: "Honey Chilli Potato", rating: "3.6✨", },
     { name: "DimSums", rating: "3.5✨",desc:"a large range of small Chinese dishes that are traditionally enjoyed in restaurants for breakfast and lunch." }
   ],
   italian: [
     { name: "Pizza", rating: "4.1✨", 
-    desc:" dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients" },
+     },
     { name: "Raviolli", 
-    rating: "4.7✨",
-    desc:"Italian dumpling that's typically stuffed with ricotta, meat, cheese, and vegetables. " },
-    { name: "White Sauce Pasta" , rating: "3.9✨",desc:" yummy italian creamy white sauce pasta which will make you fall in love"}
+    rating: "4.7✨"
+     },
+    { name: "White Sauce Pasta" , rating: "3.9✨"}
   ],
   northIndian: [
-    { name: "Chole Bhatoore", rating: "3✨" ,desc:" food dish popular in the Northern areas of the Indian subcontinent."},
-    { name: "Dahi Bhalla", rating: "3.2✨" ,desc:"Dahi vada is a type of chaat (snack) originating from the Indian subcontinent and popular throughout South Asia."},
-    { name: "Dal Makhani", rating: "3.5✨",desc:"dish originating in New Delhi, India. It is a modern take on the age-old Urad ki Dal" }
+    { name: "Chole Bhatoore", rating: "3✨" },
+    { name: "Dahi Bhalla", rating: "3.2✨" },
+    { name: "Dal Makhani", rating: "3.5✨"}
   ],
-  southIndian: [{ name: "Dosa", rating: "3.6✨",desc:"a thin pancake or crepe, originating from South India, made from a fermented batter predominantly consisting of lentils and rice." }, 
-  { name: "Idli", rating: "3.8✨",desc:" a type of savoury rice cake, originating from the Indian subcontinent, popular as breakfast foods in Southern India" }, 
-  { name: "Sambhar Vada", rating: "4✨",desc:"a traditional South Indian delicacy prepared using black lentils or urad dal batter." }]
+  southIndian: [{ name: "Dosa", rating: "3.6✨"}, 
+  { name: "Idli", rating: "3.8✨" }, 
+  { name: "Sambhar Vada", rating: "4✨"}]
 };
 
 export default function App() {
