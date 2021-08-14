@@ -17,7 +17,7 @@ const fooddb = {
     { name: "White Sauce Pasta" , rating: "3.9✨",desc:" yummy italian creamy white sauce pasta which will make you fall in love"}
   ],
   northIndian: [
-    { name: "Chole Bhatoore", rating: "3✨" ,desc:" food dish popular in the Northern areas of the Indian subcontinent."},
+    { name: "Chole Bhatoore", rating: "3✨" ,desc:"food dish popular in the Northern areas of the Indian subcontinent."},
     { name: "Dahi Bhalla", rating: "3.2✨" ,desc:"Dahi vada is a type of chaat (snack) originating from the Indian subcontinent and popular throughout South Asia."},
     { name: "Dal Makhani", rating: "3.5✨",desc:"dish originating in New Delhi, India. It is a modern take on the age-old Urad ki Dal" }
   ],
