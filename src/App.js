@@ -35,10 +35,12 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1> Are you a foodie ?</h1>
+      <h1 style={{textAlign:"center"
+      }}> Are you a foodie ?</h1>
       <p
         style={{
-          fontSize: "24px"
+          fontSize: "24px",
+          textAlign:"center"
         }}
       >
         Have a look at my favourite food from my favourite cuisines
@@ -58,7 +60,8 @@ export default function App() {
               width: "10rem",
               fontSize: "20px",
               padding: "4rem 1 rem",
-              margin: "1rem 0.5rem",
+              marginLeft:"15%",
+              marginBottom:"2%",
               hover: "blue"
             }}
           >
